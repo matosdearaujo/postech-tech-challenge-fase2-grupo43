@@ -1,0 +1,8 @@
+[ ] Initializing inetd mode configuration
+[ ] Clients allowed=5000
+[.] stunnel 5.72 on x86_64-pc-linux-gnu platform
+[.] Compiled/running with OpenSSL 3.0.13 30 Jan 2024
+[.] Threading:PTHREAD Sockets:POLL,IPv6,SYSTEMD TLS:ENGINE,OCSP,PSK,SNI Auth:LIBWRAP
+[ ] errno: (*__errno_location ())
+[!] Invalid configuration file name "dev_https"
+[!] realpath: No such file or directory (2)

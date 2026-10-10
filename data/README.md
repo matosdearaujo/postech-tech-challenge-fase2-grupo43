@@ -12,6 +12,6 @@ Documente abaixo como obter os dados brutos, para que qualquer pessoa consiga re
 
 ## Como obter
 
-1. Baixe em: <!-- PREENCHER: URL -->
-2. Salve como: `data/raw/<!-- PREENCHER: nome do arquivo -->`
-3. Checksum (opcional, recomendado): `shasum -a 256 data/raw/<arquivo>`
+1. Baixe em: https://drive.usercontent.google.com/download?id=1z4yEyiCE_CGCWbvAAZQZSz-5-E5T5eYd&export=download&authuser=0
+2. Salve como: `data/raw/BaseDadosFase2.zip`
+3. Checksum (opcional, recomendado): `shasum -a 256 data/raw/BaseDadosFase2.zip`
