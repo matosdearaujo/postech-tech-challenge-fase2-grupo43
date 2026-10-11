@@ -3,26 +3,21 @@
 Importe daqui em todos os notebooks para que os resultados sejam reproduzíveis.
 """
 
+import os
 from pathlib import Path
 
-# --- Semente -----------------------------------------------------------------
-# Use em TODO ponto que envolva aleatoriedade: train_test_split, modelos, CV.
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+import numpy as np
+
+# Semente fixa: use em TODO ponto com aleatoriedade (split, modelos, CV).
 RANDOM_STATE = 42
 
-# --- Caminhos ----------------------------------------------------------------
-ROOT = Path(__file__).resolve().parents[1]
+# Caminhos dos dados
+RAW = Path("..") / "data" / "raw" / "application_record.csv"
+RAW_2 = Path("..") / "data" / "raw" / "credit_record.csv"
+PROCESSED = Path("..") / "data" / "processed"
+TARGET = "eh_mau_pagador"
 
-DATA_RAW = ROOT / "data" / "raw"
-DATA_PROCESSED = ROOT / "data" / "processed"
-RESULTS = ROOT / "results"
-FIGURES = RESULTS / "figures"
-MODELS = RESULTS / "models"
-METRICS = RESULTS / "metrics"
-
-# --- Dataset -----------------------------------------------------------------
-RAW_FILE = DATA_RAW / "dataset.csv"   # PREENCHER: nome real do arquivo
-TARGET = "target"                      # PREENCHER: nome da variável alvo
-
-# --- Split -------------------------------------------------------------------
-TEST_SIZE = 0.2
-CV_FOLDS = 5
+pd.set_option("display.max_columns", None)
