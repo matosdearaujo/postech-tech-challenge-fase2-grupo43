@@ -4,7 +4,7 @@ Rode esta lista antes de submeter. Cada item corresponde a pontos na rúbrica.
 
 ## Acesso (elimina a causa nº 1 de perda de nota)
 
-- [ ] Repositório **público** — confirmado em janela anônima
+- [X] Repositório **público** — confirmado em janela anônima
 - [X] Vídeo abre sem pedir permissão — confirmado em janela anônima
 - [X] Apresentação abre e está em PDF
 
@@ -14,9 +14,9 @@ Rode esta lista antes de submeter. Cada item corresponde a pontos na rúbrica.
 - [X] `README.md` sem nenhum `<!-- PREENCHER -->` restante
 - [X] `README.md` descreve projeto, dataset, como reproduzir e conclusões
 - [X] `requirements.txt` com as bibliotecas efetivamente usadas e versões fixas
-- [ ] Notebooks com células numeradas em ordem crescente
-- [ ] Saídas dos gráficos salvas nos notebooks
-- [ ] Nenhum dataset ou arquivo `.pkl` commitado por engano
+- [X] Notebooks com células numeradas em ordem crescente
+- [X] Saídas dos gráficos salvas nos notebooks
+- [X] Nenhum dataset ou arquivo `.pkl` commitado por engano
 - [X] Sem arquivos `Untitled.ipynb`, `teste.py`, `.DS_Store`
 
 ## Conteúdo
@@ -46,6 +46,6 @@ Rode esta lista antes de submeter. Cada item corresponde a pontos na rúbrica.
 
 ## Submissão
 
-- [ ] PDF com os três links gerado
-- [ ] Links do PDF idênticos aos do README
-- [ ] PDF enviado na plataforma
+- [X] PDF com os três links gerado
+- [X] Links do PDF idênticos aos do README
+- [X] PDF enviado na plataforma
